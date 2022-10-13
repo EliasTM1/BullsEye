@@ -1,0 +1,45 @@
+.bullsEye {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.middle {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: blue;
+    border-radius: 50%;
+    
+}
+
+.inner {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+}
+
+span{
+    font-weight: 600;
+    font-size: 1rem;
+    padding-top: 95px;
+    bottom: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.greenAim {
+    color: greenyellow;
+}
